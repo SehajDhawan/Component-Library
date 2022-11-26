@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.avatar-content img{
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 10%;
+    height: 20%;
+    left: 50%;
+    top: 5%;
+    border: 6px solid black;
+    padding: 3px;
+}
+/* Alert Messages */
+.alerts{
+    /* do'nt make display inline as span is already inline */
+    display: absolute; /*here i used it to locate at proper place acc to page*/
+    margin-top: 15%;
+}
+.alertmessage{
+    margin-top: 2%;
+    margin-right: 20%;
+    margin-left: 7%;
+    padding: 20px;
+    background-color: blue;
+    color: whitesmoke;
+}
+.closebutton{
+    color: white;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    line-height: 20px;
+    
+
+}
+.closebutton:hover{
+    color: black;
+}
+
+/* BADGES */
+#badges{
+    padding: 7px;
+    margin-left: 30px;
+    background-color: coral;
+    border-color: coral;
+}
+/* BadgeIcon */
+.notification{
+    width: 80px;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+.notification:hover{
+    background-color: blue;
+}
+.notification .icon{
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+}
+
+/* BadgeOnAvatar */
+.BadgeAvatar{
+    position: relative;
+    margin-left: 20px;
+}
+#boa{
+    width: 60px;
+    border-radius: 50%;
+}
+#active{
+    width: 20px;
+    background-color: rgb(9, 217, 9);
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 7px 2px;
+    position: absolute;
+    left: 37px;
+    top: 45px;
+}
+/* Button */
+.button{
+    margin-left: 20px;
+}
+
+.link{
+    padding: 10px;
+    margin-left: 20px;
+}
+.link:hover{
+    background-color: cadetblue;
+}
+/* ICONBUTTON */
+.icobtn{
+    border-color: aliceblue;
+    margin-left: 20px;
+}
+/* card */
+.card{
+    box-shadow: 0 8px 20px 0 rgb(0, 0, 0);
+    width: 30%;
+    margin-left: 40px;
+}
+.cardinfo{
+    text-align: center;
+    padding: 30px;
+    padding-left: 20px;
+}
+/* card with badge */
+.bic{
+    z-index: 3;
+    position: absolute;
+    margin-left: -18%;
+    width: 5%;
+    margin-top: 27%; /*do this to setthe position*/
+}
+
+/* card with text overlay */
+                            .card-with-text-overlay{
+                                box-sizing: border-box;
+                                position: relative;
+                                transition: all 0.5s ease-in;
+
+                            }
+                            .overlay-text{
+                                position: absolute;
+                                top: 0;
+                                bottom: 0;
+                                left: 0;
+                                right: 0;
+                                height: 100%;
+                                width: 100%;
+                                opacity: 0;
+                                visibility: none;
+                                transition: .5s ease;
+                                background-color: #393839;
+                            }
+                            .card:hover .overlay-text {
+                                opacity: 1;
+                            }
+                            .overlay{
+                                color: white;
+                                font-size: 20px;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                -webkit-transform: translate(-50%, -50%);
+                                -ms-transform: translate(-50%, -50%);
+                                transform: translate(-50%, -50%);
+                                text-align: center;
+                            }
+  /* card with text */
+  /* here it uses the same class as card and cardinfo */
+
+  /* horizontal card */
+  .horizontalcard{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+  .card2{
+    box-shadow: 0 8px 20px 0 rgb(0, 0, 0);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+  }
+  .cardinfo2
+  {
+    padding: 15px 10px;
+    /* width: 40%; */
+  }
+
+  /* responsiveimage */
+  .responsiveimage{
+    width: 100%;
+    height: auto;
+  }
+
+  /* NAvigation page */
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 10vh;
+    background-color: black;
+    margin-left: 50px;
+
+  }
+  .icons{
+    color: white;
+    position:absolute;
+    margin-left: 67%;
+    padding: 17px;
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+ }
+ .inputbox{
+    padding: 17px;
+    margin-left: 20%;
+ }
+ .navbar img{
+    padding-left: 17px;
+    width: 60px;
+ }
+
+ /* Rating */
+ .rating{
+    width: 60%;
+    background-color: black;
+    height: 10vh;
+    margin-left: 40px;
+ }
+ .stars{
+    padding-left: 20px;
+    padding-top:20px;
+    color: white;
+ }
+
+ .stars2{
+    padding-left: 20px;
+    padding-top:20px;
+    color: white;
+ }
+ .stars2 :hover{
+    background-color: whitesmoke;
+ }
+
+
+ .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+ }
+ .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+ }
+ .gridlayout{
+    background-color: #d23f31;
+  color: white;
+  padding: 10px 10px;
+  border: 1px solid black;
+ }
+
+
+ 
+ .fab-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  .fab-icon-holder {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #016fb9;
+  
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fab-icon-holder:hover {
+    opacity: 0.8;
+  }
+  
+  .fab-icon-holder i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    height: 100%;
+    font-style: 25px;
+    color: #ffffff;
+  }
+  
+  .fab {
+    width: 60px;
+    height: 60px;
+    background: #d23f31;
+  }
+  
+  .fab-options {
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+  
+    opacity: 0;
+  
+    transition: all 0.3s ease;
+    transform: scale(0);
+    transform-origin: 85% bottom;
+  }
+  
+  .fab:hover + .fab-options,
+  .fab-options:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .fab-options li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+  }
+  
+  .fab-label {
+    padding: 2px 5px;
+    align-self: center;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    font-size: 16px;
+    background: #666666;
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"
+  /> -->
+
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+   
+</head>
+<body>
+    <div class="avatar">
+        <h1 style="margin-left: 3%;">Avatar</h1>
+        <div class="avatar-content">
+            <img src="sehaj.jpg" alt="" class="image">
+        </div>
+    </div>
+    
+    <div class="alerts">
+        <h1 style="margin-left: 3%;">Alert Messages</h1>
+        <!-- <p>click X to close the alert which shows on the screen</p> -->
+        <div class="alertmessage"><span class="closebutton">&times;</span>
+        <strong>Highlighted text </strong>write whatever want to show n alert message.</div>
+    </div>
+
+    <div class="badge">
+        <h1 style="margin-left: 3%; margin-top: 1%;"> Badge </h1>
+        <br>
+        <button id="badges">Badges</button>
+    </div> 
+    <div class="BadgeIcon">
+        <h1 style="margin-left: 3%; margin-top: 1%;">Badge Icon</h1>
+        <br>
+        <a href="#" class="notification"><span>IconBadge</span>
+        <span class="icon">5</span></a>
+    </div>
+
+    <div class="BadgeOnAvatar">
+        <h1 style="margin-left: 3%; margin-top: 1%;">Badge On Avatar</h1>
+        <br>
+        <div class="BadgeAvatar">
+        <img src="sehaj.jpg" alt="" id="boa">
+        <span id="active"></span>
+    </div>
+    </div>
+    <div class="button">
+        <h1 style="margin-left: 3%; margin-top: 1%;">Button</h1>
+        <br>
+        <button style="padding: 10px;">press it!</button>
+    </div>
+    <div class="linkbutton">
+        <h1 style="margin-left: 3%; margin-top: 1%;">Link Button</h1>
+        <br>
+        <button class="link"><a href="#" style="text-decoration:none ; color: white;">welcome</a></button>
+    </div>
+    <div class="iconbutton">
+        <h1 style="margin-left: 3%; margin-top: 1%;">Icon Button</h1>
+        <br>
+        <div class="icobtn">
+            <button style="padding: 8px;"><i class="fi fi-rr-home"></i> Home</button>
+        </div>
+    </div>
+    <!-- Card -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Card</h1>
+        <br>
+    <div class="card"> 
+        <img src="sehaj.jpg" alt="" width="100%">
+        <div class="cardinfo">
+            <h4>sehaj Dhawan</h4>
+            <p>Aspiring WebDeveloper</p>
+        </div>
+    </div>
+    <br>
+<!-- card with badge -->
+<h1 style="margin-left: 3%; margin-top: 1%;">Card with Badge</h1>
+        <br>
+    <div class="cardicon">
+        <div class="card"> 
+            <img src="sehaj.jpg" alt="" width="100%">
+            <img src="badge.png" alt="" width="15%" class="bic">
+            <div class="cardinfo">
+                <h4>sehaj Dhawan</h4>
+                <p>Aspiring WebDeveloper</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Card with text overlay -->
+                        <h1 style="margin-left: 3%; margin-top: 1%;">Card with text overlay</h1>
+                        <br>
+                        <div class="card-with-text-overlay">
+                            <img src="sehaj.jpg" alt="" class="card cardimage">
+                            <div class="overlay-text">
+                                <div class="overlay">
+                                <h3>Sehaj Dhawan</h3>
+                                <p>Aspiring WebDeveloper</p>
+                                <a href="#"><img src="linkedin.png" alt="" width="3%"></a>
+                            </div>
+                        </div>
+                        </div>
+<!-- card with text -->
+    <br>
+    <h1 style="margin-left: 3%; margin-top: 1%;">Card with text</h1>
+    <br>
+    <div class="cardwithtext">
+        <div class="card">
+            <div class="cardinfo">
+            <h3>Sehaj Dhawan</h3>
+            <p>Aspiring WebDeveloper</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatum quam corporis impedit quas cumque repellendus cum rerum! Illum sed laborum omnis, et tenetur quae minus, inventore dignissimos accusamus ipsam minima necessitatibus soluta aperiam consequatur nulla impedit! Sunt enim saepe aspernatur provident, rem vitae fugiat temporibus eius, qui quam in.</p>
+        </div>
+    </div>
+    </div>
+    <br>
+    <!-- horizontal card -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Horizontal Card</h1>
+    <br>
+    <div class="s">
+        <div class="card2">
+            <img src="linkedin.png" alt="" width="15%">
+            <div class="cardinfo2">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, reiciendis recusandae. Hic magni totam necessitatibus quasi enim, laboriosam veniam consectetur vero, consequuntur, sit rem? Fugiat?</p>
+            </div>
+        </div>
+    </div>
+    <!-- shawdow box -->
+    <br>
+    <h1 style="margin-left: 3%; margin-top: 1%;">cards with shadow</h1>
+    <br>
+    <div class="shadowbox">
+        <p style="font-weight: bolder; padding-left:30px; color: blue;">Above all the cards are shadow box</p>
+    </div>
+    <br>
+    <!-- Responsive Image -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Responsive Image</h1>
+    <br>
+    <div class="responsiveimage">
+        <img src="download.jpg" alt="">
+    </div>
+    <br>
+    <!-- round image -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Round Image</h1>
+    <br>
+    <div class="round">
+        <img src="sehaj.jpg" alt="" style="border-radius: 50%; width:10%; margin-left:20px">
+    </div>
+    <br>
+    <!-- input and text area -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Input&TextArea</h1>
+    <br>
+    <div class="inputbox">
+        <p style="margin-left:20px;">Name: <input type="text" placeholder="Enter your name"></p>
+        <p style="margin-left:20px;">
+           Enter other details:</p> <textarea name="" id="" cols="30" rows="10" style="margin-left:20px;"></textarea>
+    </div>
+    <br>
+    <!-- text utilities -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Text Utilities</h1>
+    <br>
+    <div class="text-utilities" style="margin-left: 20px;  line-height: 2;">
+        <p>It i used for text alignment,styles and overflow things</p>
+        <div class="text-left"></div>
+<!-- center-aligned text -->
+<div class="text-center" style="text-align: center;">ALIGN CENTER</div>
+<!-- right-aligned text -->
+<div class="text-right" style="text-align: right;">ALIGN RIGHT</div>
+<!-- justified text -->
+<div class="text-justify" style="text-justify:inter-word;">TEXT JUSTIFY INNERWORD Sehaj Dhawan</div>
+
+<!-- Lowercased text -->
+<div class="text-lowercase" style="text-transform: lowercase;">LOWERCASE</div>
+<!-- Uppercased text -->
+<div class="text-uppercase"style="text-transform: uppercase;">uppercase</div>
+<!-- Capitalized text -->
+<div class="text-capitalize"style="text-transform:Capitalized;" >capatalized transformation</div>
+
+<!-- Normal weight text -->
+<div class="text-normal" style="font-weight: normal;">Sehaj Dhawan (normal)</div>
+<!-- Bold text -->
+<div class="text-bold" style="font-weight: bold;">Sehaj Dhawan (BOLD)</div>
+<!-- Italicized text -->
+<div class="text-italic" style="font-style:italic;">Sehaj Dhawan (ITALIC)</div>
+<!-- Muted text -->
+<div class="text-muted">Sehaj Dhawan</div>
+<!-- Larger text (120%) -->
+<div class="text-large" style="font-size:large;">LARGE</div>
+<!-- Smaller text (90%) -->
+<div class="text-small" style="font-size:small;">SMALL</div>
+<!-- Tiny text (80%) -->
+<!-- <div class="text-tiny">Sehaj Dhawan</div> -->
+<div class="text-overflow" style="text-overflow:ellipsis; border: 1px solid white; width: 20%; overflow: hidden; white-space: nowrap;" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, iure molestiae hic labore tenetur totam cum voluptate inventore ullam. Dignissimos exercitationem obcaecati, perspiciatis qui dolore adipisci cupiditate ratione ipsa animi!</div>
+    </div>
+    <br>
+    <h1 style="margin-left: 3%; margin-top: 1%;">Headings</h1>
+    <br>
+    <div class="headings" style="margin-left: 20px;">
+        <h1> H1 hello</h1>
+        <h2> H2 hello</h2>
+        <h3>H3 hello</h3>
+    </div>
+    <br>
+    <h1 style="margin-left: 3%; margin-top: 1%;">List</h1>
+    <br>
+    <div class="list">
+        <div class="ordered" style="margin-left: 20px;">
+            <h3>ordered list</h3>
+            <br>
+            <ol>
+                <li>html</li>
+                <li>CSS</li>
+                <li>javascript</li>
+            </ol>
+        </div>
+        <br>
+        <div class="unordredlist" style="margin-left: 20px;">
+            <h3>unordered list</h3>
+            <br>
+            <ul>
+                <li>ExpressJs</li>
+                <li>NodeJs</li>
+                <li>Mysql</li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="Notificaton-page">
+        <h1 style="margin-left: 3%; margin-top: 1%;">Navigation Page</h1>
+        <br>
+        <div class="navbar">
+            <img src="logo.jpg" alt="" width="5%">
+            <div class="orgname"><h1 style="color: white; padding-top:10px ; padding-bottom: 17px; padding-left: 20px;">TCL</h1></div>
+            <div class="inputbox"><input type="text" placeholder="search for products,brands"> <button type="submit"><i class="fa fa-search"></i></button></div>
+            <div class="icons">
+                <i class="fa fa-shopping-cart" style="font-size:24px"></i>
+                <i class="fa fa-heart" style="font-size:24px"></i>
+                <i class="fa fa-user-circle" aria-hidden="true" style="font-size:24px" ></i>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Rating -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Static Rating</h1>
+    <br>
+    <div class="rating">
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+    </div>
+    <br>
+    <!-- <h1 style="margin-left: 3%; margin-top: 1%;">CSS Rating</h1>
+    <br>
+    <div class="rating">
+        <div class="stars2">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+        </div>
+    </div> -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Grid Two Item Layout</h1>
+    <br>
+    <div class="grid2">
+        <div class="gridlayout">One</div>
+        <div class="gridlayout">Two</div>
+        <div class="gridlayout">Three</div>
+        <div class="gridlayout">four</div>
+    </div>
+    <br>
+    <h1 style="margin-left: 3%; margin-top: 1%;">Grid Three Item Layout</h1>
+    <br>
+    <div class="grid3">
+        <div class="gridlayout">One</div>
+        <div class="gridlayout">Two</div>
+        <div class="gridlayout">Three</div>
+        <div class="gridlayout">four</div>
+        <div class="gridlayout">five</div>
+        <div class="gridlayout">Six</div>
+    </div>
+    <br>
+    <!-- Nikhil code  -->
+    <h1 style="margin-left: 3%; margin-top: 1%;">Floating Action Button</h1>
+    <div class="fab-container">
+        <div class="fab fab-icon-holder">
+          <i class="fas fa-question"></i>
+        </div>
+  
+        <ul class="fab-options">
+          <li>
+            <span class="fab-label">Documentation</span>
+            <div class="fab-icon-holder">
+              <i class="fas fa-file-alt"></i>
+            </div>
+          </li>
+          <li>
+            <span class="fab-label">Video Tutorials</span>
+            <div class="fab-icon-holder">
+              <i class="fas fa-video"></i>
+            </div>
+          </li>
+          <li>
+            <span class="fab-label">Live chat</span>
+            <div class="fab-icon-holder">
+              <i class="fas fa-comments"></i>
+            </div>
+          </li>
+          <li>
+            <span class="fab-label">Feedback</span>
+            <div class="fab-icon-holder">
+              <i class="fas fa-comment-alt"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+  
+
+</body>
+</html>
